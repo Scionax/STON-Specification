@@ -83,8 +83,8 @@ Stored as a Key-Value pair (e.g. Key=Value) with Equal Sign (=) as a key delimit
 ### STON Dictionaries <numeric, MAPTYPE>
 Identical to .dict files, except key is numeric, and value is assigned to MAPTYPE.
 
-	.map2_:   A <dibit, MAPTYPE> Dictionary>.
-	.map4_:   A <nibble, MAPTYPE> Dictionary>.
+	.map2_:   A <dibit, MAPTYPE> Dictionary.
+	.map4_:   A <nibble, MAPTYPE> Dictionary.
 	.map8_:   A <byte, MAPTYPE> Dictionary.
 	.map16_:  A <short, MAPTYPE> Dictionary.
 	.map32_:  A <int, MAPTYPE> Dictionary.

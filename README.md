@@ -41,6 +41,15 @@ NOTE: The "#" character represents an option of 1, 2, 4, 8, 16, 32, or 64.
 	 64  long
 
 
+### Notes about STON Formatting
+
+1. Whitespace is trimmed in both keys and values.
+
+2. Backslashes will escape characters, including for forced whitespace and commas.
+
+3. Trailing commas are allowed.
+
+
 # STON Examples
 
 An array of strings:

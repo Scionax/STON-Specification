@@ -13,9 +13,7 @@ A specification for Strictly Typed Object Notation.
 * May be confusing to developers without strict typing experience.
 
 # STON Full-Object Archetype.
-The full .ston file that encorporates all of the previous types into a single object. Similar to JSON styling, but with strong typing.
-
-NOTE: The "#" character represents an option of 1, 2, 4, 8, 16, 32, or 64.
+A .ston format is similar to JSON, but each type is preceeded with a cast in quotes.
 
 	(s)[]    Array (Strings)
 	(#)[]    Array (Numbers)
@@ -26,6 +24,8 @@ NOTE: The "#" character represents an option of 1, 2, 4, 8, 16, 32, or 64.
 	(#,s){}  Dictionary <Number, String>
 	(#,o){}  Dictionary <Number, Object>
 	(#,#){}  Dictionary <Number, Number>
+
+NOTE: The "#" character represents numeric options (byte, int, long, etc) as 1, 2, 4, 8, 16, 32, or 64.
 
 ### Character Representations:
 

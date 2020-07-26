@@ -43,14 +43,23 @@ NOTE: The "#" character represents an option of 1, 2, 4, 8, 16, 32, or 64.
 
 # STON Examples
 
+An array of strings:
+
 	(s)[Hello,Goodbye,Come Again,How are you?,Excellent!,Bravo]
+	
+An array of bytes (8 bits):
 	
 	(8)[100,43,75,247,90,61,35]
 	
+An array of nibbles (4 bites):
+	
 	(4)[2,15,0,8,3,7,11,13]
+	
+A Dictionary<string, nibble> rating Meals from 0 to 10.
 	
 	(s,4){
 		Pizza=10,
 		Spaghetti=5,
 		Soup=7,
 	}
+	
